@@ -1,0 +1,17 @@
+{
+    "name": "website",
+    "version": "2.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "pm2 start dash"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "buffer": "^6.0.3",
+        "compression": "^1.7.4",
+        "dotenv": "^16.0.0",
+        "express": "^4.17.1",
+        "request": "^2.88.2"
+    }
+}
