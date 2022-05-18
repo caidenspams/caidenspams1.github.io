@@ -27,7 +27,7 @@ const getAccessToken = async () => {
         });
 
         const newAccessToken = response.data.access_token;
-        fs.writeFile("./public/js/access.txt", newAccessToken, (err) => {
+        fs.writeFile("./js/access.txt", newAccessToken, (err) => {
             if (err) {
                 console.log(err);
             }
